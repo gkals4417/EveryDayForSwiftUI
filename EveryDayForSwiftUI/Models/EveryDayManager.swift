@@ -21,6 +21,8 @@ class EveryDayManager: ObservableObject {
     @Published var mean: String = ""
     @Published var memo: String = ""
     @Published var wordClass: [String] = []
+    @Published var date: Date?
+    
     
     func addItem(word: String, mean: String, memo: String, workdClass: [String]) {
         withAnimation {
@@ -38,12 +40,6 @@ class EveryDayManager: ObservableObject {
                 let nsError = error as NSError
                 fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
             }
-        }
-    }
-    
-    func updateItem(item: SavedData) {
-        guard let date = item.timestamp else {
-            return
         }
     }
 

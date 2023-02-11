@@ -23,6 +23,7 @@ struct MainView: View {
     private var items: FetchedResults<SavedData>
     
     @ObservedObject private var userDate = UserData()
+    @ObservedObject private var manager = EveryDayManager()
     
     var body: some View {
         NavigationStack {
