@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4DAC49E12994A5610013DC39 /* EveryDayForSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAC49E02994A5610013DC39 /* EveryDayForSwiftUIApp.swift */; };
+		4DAC49E32994A5610013DC39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAC49E22994A5610013DC39 /* ContentView.swift */; };
+		4DAC49E52994A5620013DC39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DAC49E42994A5620013DC39 /* Assets.xcassets */; };
+		4DAC49E82994A5620013DC39 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DAC49E72994A5620013DC39 /* Preview Assets.xcassets */; };
+		4DAC49EA2994A5620013DC39 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAC49E92994A5620013DC39 /* Persistence.swift */; };
+		4DAC49ED2994A5620013DC39 /* EveryDayForSwiftUI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4DAC49EB2994A5620013DC39 /* EveryDayForSwiftUI.xcdatamodeld */; };
+		4DAC49F92994C8CA0013DC39 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAC49F82994C8CA0013DC39 /* MainView.swift */; };
+		4DAC49FC2994CF3A0013DC39 /* FSCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = 4DAC49FB2994CF3A0013DC39 /* FSCalendar */; };
+		4DAC49FE2994D8050013DC39 /* WordListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAC49FD2994D8050013DC39 /* WordListView.swift */; };
+		4DAC4A002994D81A0013DC39 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAC49FF2994D81A0013DC39 /* QuestionView.swift */; };
+		4DAC4A022994D8290013DC39 /* InformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAC4A012994D8290013DC39 /* InformationView.swift */; };
+		4DAC4A062994D9260013DC39 /* EveryDayManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAC4A052994D9260013DC39 /* EveryDayManager.swift */; };
+		4DAC4A0A29964F2A0013DC39 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAC4A0929964F2A0013DC39 /* CalendarView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4DAC49DD2994A5610013DC39 /* EveryDayForSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EveryDayForSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DAC49E02994A5610013DC39 /* EveryDayForSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EveryDayForSwiftUIApp.swift; sourceTree = "<group>"; };
+		4DAC49E22994A5610013DC39 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4DAC49E42994A5620013DC39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DAC49E72994A5620013DC39 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4DAC49E92994A5620013DC39 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		4DAC49EC2994A5620013DC39 /* EveryDayForSwiftUI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EveryDayForSwiftUI.xcdatamodel; sourceTree = "<group>"; };
+		4DAC49F32994A5CE0013DC39 /* BMHANNAPro.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BMHANNAPro.ttf; sourceTree = "<group>"; };
+		4DAC49F42994A5CE0013DC39 /* BMHANNAAir_ttf.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BMHANNAAir_ttf.ttf; sourceTree = "<group>"; };
+		4DAC49F52994A6100013DC39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4DAC49F82994C8CA0013DC39 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		4DAC49FD2994D8050013DC39 /* WordListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordListView.swift; sourceTree = "<group>"; };
+		4DAC49FF2994D81A0013DC39 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		4DAC4A012994D8290013DC39 /* InformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationView.swift; sourceTree = "<group>"; };
+		4DAC4A052994D9260013DC39 /* EveryDayManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EveryDayManager.swift; sourceTree = "<group>"; };
+		4DAC4A0929964F2A0013DC39 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DAC49DA2994A5610013DC39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DAC49FC2994CF3A0013DC39 /* FSCalendar in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DAC49D42994A5610013DC39 = {
+			isa = PBXGroup;
+			children = (
+				4DAC49DF2994A5610013DC39 /* EveryDayForSwiftUI */,
+				4DAC49DE2994A5610013DC39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4DAC49DE2994A5610013DC39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DAC49DD2994A5610013DC39 /* EveryDayForSwiftUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DAC49DF2994A5610013DC39 /* EveryDayForSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				4DAC49F52994A6100013DC39 /* Info.plist */,
+				4DAC49F42994A5CE0013DC39 /* BMHANNAAir_ttf.ttf */,
+				4DAC49F32994A5CE0013DC39 /* BMHANNAPro.ttf */,
+				4DAC49E42994A5620013DC39 /* Assets.xcassets */,
+				4DAC49EB2994A5620013DC39 /* EveryDayForSwiftUI.xcdatamodeld */,
+				4DAC49E92994A5620013DC39 /* Persistence.swift */,
+				4DAC49E02994A5610013DC39 /* EveryDayForSwiftUIApp.swift */,
+				4DAC49E22994A5610013DC39 /* ContentView.swift */,
+				4DAC4A0B299654E30013DC39 /* Helpers */,
+				4DAC4A042994D8B00013DC39 /* Models */,
+				4DAC4A032994D8330013DC39 /* Views */,
+				4DAC49E62994A5620013DC39 /* Preview Content */,
+			);
+			path = EveryDayForSwiftUI;
+			sourceTree = "<group>";
+		};
+		4DAC49E62994A5620013DC39 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4DAC49E72994A5620013DC39 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4DAC4A032994D8330013DC39 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4DAC49F82994C8CA0013DC39 /* MainView.swift */,
+				4DAC49FD2994D8050013DC39 /* WordListView.swift */,
+				4DAC49FF2994D81A0013DC39 /* QuestionView.swift */,
+				4DAC4A012994D8290013DC39 /* InformationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4DAC4A042994D8B00013DC39 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4DAC4A052994D9260013DC39 /* EveryDayManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4DAC4A0B299654E30013DC39 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4DAC4A0929964F2A0013DC39 /* CalendarView.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DAC49DC2994A5610013DC39 /* EveryDayForSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DAC49F02994A5620013DC39 /* Build configuration list for PBXNativeTarget "EveryDayForSwiftUI" */;
+			buildPhases = (
+				4DAC49D92994A5610013DC39 /* Sources */,
+				4DAC49DA2994A5610013DC39 /* Frameworks */,
+				4DAC49DB2994A5610013DC39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EveryDayForSwiftUI;
+			packageProductDependencies = (
+				4DAC49FB2994CF3A0013DC39 /* FSCalendar */,
+			);
+			productName = EveryDayForSwiftUI;
+			productReference = 4DAC49DD2994A5610013DC39 /* EveryDayForSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DAC49D52994A5610013DC39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					4DAC49DC2994A5610013DC39 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 4DAC49D82994A5610013DC39 /* Build configuration list for PBXProject "EveryDayForSwiftUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DAC49D42994A5610013DC39;
+			packageReferences = (
+				4DAC49FA2994CF3A0013DC39 /* XCRemoteSwiftPackageReference "FSCalendar" */,
+			);
+			productRefGroup = 4DAC49DE2994A5610013DC39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DAC49DC2994A5610013DC39 /* EveryDayForSwiftUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DAC49DB2994A5610013DC39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DAC49E82994A5620013DC39 /* Preview Assets.xcassets in Resources */,
+				4DAC49E52994A5620013DC39 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DAC49D92994A5610013DC39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DAC4A0A29964F2A0013DC39 /* CalendarView.swift in Sources */,
+				4DAC49EA2994A5620013DC39 /* Persistence.swift in Sources */,
+				4DAC4A022994D8290013DC39 /* InformationView.swift in Sources */,
+				4DAC49E32994A5610013DC39 /* ContentView.swift in Sources */,
+				4DAC49ED2994A5620013DC39 /* EveryDayForSwiftUI.xcdatamodeld in Sources */,
+				4DAC4A002994D81A0013DC39 /* QuestionView.swift in Sources */,
+				4DAC49F92994C8CA0013DC39 /* MainView.swift in Sources */,
+				4DAC4A062994D9260013DC39 /* EveryDayManager.swift in Sources */,
+				4DAC49FE2994D8050013DC39 /* WordListView.swift in Sources */,
+				4DAC49E12994A5610013DC39 /* EveryDayForSwiftUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4DAC49EE2994A5620013DC39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4DAC49EF2994A5620013DC39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DAC49F12994A5620013DC39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EveryDayForSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 5566XK43XC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EveryDayForSwiftUI/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pulsar.EveryDayForSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DAC49F22994A5620013DC39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EveryDayForSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 5566XK43XC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EveryDayForSwiftUI/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pulsar.EveryDayForSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DAC49D82994A5610013DC39 /* Build configuration list for PBXProject "EveryDayForSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DAC49EE2994A5620013DC39 /* Debug */,
+				4DAC49EF2994A5620013DC39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DAC49F02994A5620013DC39 /* Build configuration list for PBXNativeTarget "EveryDayForSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DAC49F12994A5620013DC39 /* Debug */,
+				4DAC49F22994A5620013DC39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4DAC49FA2994CF3A0013DC39 /* XCRemoteSwiftPackageReference "FSCalendar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/WenchaoD/FSCalendar.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.8.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4DAC49FB2994CF3A0013DC39 /* FSCalendar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4DAC49FA2994CF3A0013DC39 /* XCRemoteSwiftPackageReference "FSCalendar" */;
+			productName = FSCalendar;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		4DAC49EB2994A5620013DC39 /* EveryDayForSwiftUI.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4DAC49EC2994A5620013DC39 /* EveryDayForSwiftUI.xcdatamodel */,
+			);
+			currentVersion = 4DAC49EC2994A5620013DC39 /* EveryDayForSwiftUI.xcdatamodel */;
+			path = EveryDayForSwiftUI.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4DAC49D52994A5610013DC39 /* Project object */;
+}
